@@ -1,0 +1,39 @@
+﻿<Window x:Class="ATP2016ProjectNew.View.Windows.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATP2016ProjectNew.View.Windows"
+        mc:Ignorable="d"
+        Title="About" Height="330" Width="320">
+            <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="3*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <TextBlock VerticalAlignment="Center" TextAlignment="Center" Grid.ColumnSpan="4" Background="SkyBlue"><Bold> Welcome to Maze!</Bold></TextBlock>
+        <TextBlock  Grid.Row="1" TextAlignment="Center"  Grid.ColumnSpan="4">
+               Here you can enjoy an amazing game  <LineBreak/>
+               for all the family! <LineBreak/>
+               The solution for this maze are based <LineBreak/>
+            on smart algorithms such as : BFS, DFS .. <LineBreak/>
+            This game was made by Shahar and Dana. <LineBreak/>
+            students in information system engeneering <LineBreak/>
+            in Ben - Gurion University in the Negev. <LineBreak/>
+            Think and ty to solve the maze yourself!  <LineBreak/>
+           You also have the solution, if you get stucked  <LineBreak/>
+           Enjoy !  <LineBreak/>
+            
+        </TextBlock>
+
+        <Grid Name="player" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="9,0,30,9"></Grid>
+    </Grid>
+</Window>

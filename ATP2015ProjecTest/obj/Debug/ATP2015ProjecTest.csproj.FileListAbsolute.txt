@@ -1,0 +1,11 @@
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\obj\Debug\ATP2015ProjecTest.csprojResolveAssemblyReference.cache
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\ATP2015ProjecTest.dll
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\ATP2015ProjecTest.pdb
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\ATP2016ProjectNew.exe
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\ProjectModel2016.dll
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\ATP2016ProjectNew.pdb
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\ProjectModel2016.pdb
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\obj\Debug\ATP2015ProjecTest.dll
+C:\Users\Dana\Documents\Visual Studio 2015\Projects\ATP2016ProjectNew\ATP2015ProjecTest\obj\Debug\ATP2015ProjecTest.pdb

@@ -1,0 +1,29 @@
+﻿<Window x:Class="ATP2016ProjectNew.View.Windows.PropWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATP2016ProjectNew.View.Windows"
+        mc:Ignorable="d"
+        Title="PropWindow" Height="250" Width="330">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <TextBlock Grid.ColumnSpan="2" VerticalAlignment="Center" TextAlignment="Center" Background="SkyBlue"><Bold> Properties:</Bold></TextBlock>
+        <TextBlock VerticalAlignment="Center"  Grid.Row="1" TextAlignment="Center"> <Bold> Number of threads:</Bold></TextBlock>
+        <TextBlock Name="NumOfThreads" Grid.Column="1" VerticalAlignment="Center" Grid.Row="1" TextAlignment="Center"></TextBlock>
+        <TextBlock Grid.Row="2" VerticalAlignment="Center" TextAlignment="Center"><Bold> Algorithm was used:</Bold></TextBlock>
+        <TextBlock Name="Algo"  Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" TextAlignment="Center"> </TextBlock>
+
+    </Grid>
+</Window>

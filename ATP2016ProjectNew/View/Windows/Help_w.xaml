@@ -1,0 +1,68 @@
+﻿<Window x:Class="ATP2016ProjectNew.View.Windows.Help_w"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATP2016ProjectNew.View.Windows"
+        mc:Ignorable="d"
+        Title="Help" Height="400" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="0.5*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="0.5*" ></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid Name="Wall" Grid.Column="1" Grid.Row="1" Margin="20,5,20,5"></Grid>
+        <Grid Name="Grass"  Grid.Column="1" Grid.Row="2" Margin="20,5,20,5"></Grid>
+        <Grid Name="Start"  Grid.Column="1" Grid.Row="3" Margin="20,5,20,5"></Grid>
+        <Grid Name="Goal"  Grid.Column="1" Grid.Row="4" Margin="20,5,20,5"></Grid>
+        <Grid Name="Steps"  Grid.Column="1" Grid.Row="5" Margin="20,5,20,5"></Grid>
+        <Grid Name="Jumper"  Grid.Column="1" Grid.Row="6" Margin="20,5,20,5"></Grid>
+
+        <TextBlock Grid.ColumnSpan="4" VerticalAlignment="Center" TextAlignment="Center"  Background="SkyBlue"><Bold> Information about The Maze</Bold></TextBlock>
+        <TextBlock FontSize="10" Grid.Column="2"  Grid.Row="1" VerticalAlignment="Center" TextAlignment="Center"> - Wall.<LineBreak></LineBreak>
+            You cant move on it.
+        </TextBlock>
+        <TextBlock FontSize="10" Grid.Column="2"  Grid.Row="2" VerticalAlignment="Center" TextAlignment="Center"> - Grass.<LineBreak></LineBreak>
+            You can move on it.
+        </TextBlock>
+        <TextBlock FontSize="10" Grid.Column="2"  Grid.Row="3" VerticalAlignment="Center" TextAlignment="Center"> - Start Point.<LineBreak></LineBreak>
+            You start from here.
+        </TextBlock>
+        <TextBlock FontSize="10" Grid.Column="2"  Grid.Row="4" VerticalAlignment="Center" TextAlignment="Center"> - Goal Point.<LineBreak></LineBreak>
+            You need to go here.<LineBreak></LineBreak>
+            Here you finish the maze!
+        </TextBlock>
+        <TextBlock FontSize="10" Grid.Column="2"  Grid.Row="5" VerticalAlignment="Center" TextAlignment="Center"> - Steps.<LineBreak></LineBreak>
+           Show the solution of the Maze.
+        </TextBlock>
+        <TextBlock FontSize="10" Grid.Column="2"  Grid.Row="6" VerticalAlignment="Center" TextAlignment="Center"> - Jumper (Move up/down)<LineBreak></LineBreak>
+          You can move between the layers.<LineBreak></LineBreak>
+            using controls: PageUp/PageDown
+        
+        </TextBlock>
+        <TextBlock   FontSize="10" Grid.Column="1" Grid.ColumnSpan="2"  Grid.Row="8" VerticalAlignment="Center" TextAlignment="Center"> 
+         <Bold>Pay attention! .<LineBreak></LineBreak>
+            if you leave the game with the<LineBreak></LineBreak>
+            (X) button all the data will be lost!
+</Bold>
+        </TextBlock>
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="ATP2016ProjectNew.SaveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATP2016ProjectNew"
+        mc:Ignorable="d"
+        Title="Save" Height="200" Width="350">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="10" VerticalAlignment="Center" Margin="12"  Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="0">Which maze do you want to save:</TextBlock>
+
+        <TextBox Name="MazeNameTextBox" VerticalAlignment="Center"  Margin="5,0,5,0" Grid.Column="2" Grid.Row="0" Text="{Binding Path=Value,ElementName=DepthSlider}"></TextBox>
+        <Button VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="1" Name="savemaze" Click="SaveMaze_Click">Save As</Button>
+        <Button Name="btn_cancel" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0" Content="Cancel" Click="btn_cancel_Click" />
+    </Grid>
+</Window>

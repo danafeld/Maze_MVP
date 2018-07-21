@@ -1,0 +1,25 @@
+﻿<Window x:Class="ATP2016ProjectNew.SolveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATP2016ProjectNew"
+        mc:Ignorable="d"
+        Title="Solve" Height="200" Width="350">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="1*" ></RowDefinition>
+          
+        </Grid.RowDefinitions>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0">Choose Maze:</TextBlock>
+        <TextBox Name="NameTextBox" VerticalAlignment="Center" Grid.Column="1" Grid.Row="0" Margin="12,0,12,0" Text="{Binding Path=Value,ElementName=NameTextBox}"></TextBox>
+        <Button VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="1" Name="solvemaze" Click="Solve_Click">Solve</Button>
+        <Button Name="btn_cancel" Grid.Row="5" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0" Content="Cancel" Click="btn_cancel_Click" />
+    </Grid>
+</Window>

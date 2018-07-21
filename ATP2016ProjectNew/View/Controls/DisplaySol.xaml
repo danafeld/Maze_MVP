@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="ATP2016ProjectNew.View.Controls.DisplaySol"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ATP2016ProjectNew.View.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="7*" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Grid.ColumnSpan="3" Grid.Column="0" BorderBrush="White" BorderThickness="2" HorizontalAlignment="Stretch" Margin="0,0,0,0">
+        </Border>
+        <Grid Name="display" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"></Grid>
+        <TextBlock Foreground="WhiteSmoke" VerticalAlignment="Center" TextAlignment="Center" Text="Choose maze:"></TextBlock>
+        <TextBox  Margin ="8" VerticalAlignment="Center" Name="Name_Maze_sol" Grid.Column="1"></TextBox>
+        <Button Click ="displaysolution_Click" Content="Display" Name="displaysolution" Grid.Column="2" Margin="12,9,12,9"></Button>
+    </Grid>
+</UserControl>
